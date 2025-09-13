@@ -6,7 +6,7 @@ import com.sherif.Employees.System.model.Employee;
 import java.util.List;
 
 public interface EmployeeService {
-    public void save(Employee employee);
+    void save(Employee employee);
     List<Employee> getAllEmployees();
 
 }
